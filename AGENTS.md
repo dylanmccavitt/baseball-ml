@@ -47,3 +47,10 @@ uv run python -m mlb_props_lab dashboard
 - Any changed feature family has visual evidence in a generated report.
 - PR description links to the report path and summarizes limitations.
 - No real-money betting language is used before evidence gates are passed.
+
+## Review finding lifecycle
+
+- Reply in the original review thread whenever a finding is fixed, blocked, deferred, rejected, or otherwise updated.
+- Include the disposition, relevant commit, verification, and any remaining work.
+- A finding is incomplete until its thread has a current status reply, even if the code changed or the comment became outdated.
+- Do not resolve review threads without explicit authorization.
